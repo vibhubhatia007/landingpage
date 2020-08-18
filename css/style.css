@@ -1,0 +1,71 @@
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  }
+  .image-wrapper{
+    margin-left: auto;
+   margin-right: auto;
+   display: block;
+  }
+  /*phone only*/
+  @media (max-width: 599px){
+    .formstyle{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    background-color:white;
+    padding-bottom: 1%;
+  }
+  .center{
+      width: 100px;
+      height: 100px;
+  }
+  }
+  /*tablet potrait only*/
+  @media (min-width: 600px){
+    .formstyle{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    background-color:white;
+    padding-bottom: 1%;
+  }
+    }
+  /*tablet landscape only*/
+  @media (min-width: 900px){
+    .formstyle{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    background-color:white;
+    padding-bottom: 1%;
+  }
+    }
+  /*dekstop*/
+  @media (min-width: 1200px){
+    .formstyle{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    background-color:white;
+    padding-bottom: 1%;
+  }
+    }
+  /*  big dekstop*/
+  @media (min-width: 1800px){
+    .formstyle{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.5%;
+    background-color:white;
+    padding-bottom: 1%;
+    }
+  }
